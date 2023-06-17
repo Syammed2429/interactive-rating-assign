@@ -14,6 +14,7 @@ export const Submitted = (props: SubmittedInterface) => {
                     <Box
                         p="8"
                         w={{ base: '100%', md: '55%', lg: '50%' }}
+                        color="white"
 
                     >
 
@@ -37,9 +38,11 @@ export const Submitted = (props: SubmittedInterface) => {
                                             w={{ base: '90%', md: '65%', lg: '65%' }}
                                             bg='#252D38'
                                             borderRadius='3xl'
+
                                         >
                                             <Text
                                                 color='#FD7612'
+                                                py='2'
                                                 fontSize='md'
                                             >You selected {props.number} out of 5</Text>
                                         </Box>

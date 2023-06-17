@@ -33,7 +33,7 @@ export const Rating: FC = () => {
                     <Center>
 
                         <Box p="8"
-                            w={{ base: '60%', md: '55%', lg: '50%' }}
+                            w={{ base: '95%', md: '55%', lg: '50%' }}
                             textAlign="start"
 
                         >
